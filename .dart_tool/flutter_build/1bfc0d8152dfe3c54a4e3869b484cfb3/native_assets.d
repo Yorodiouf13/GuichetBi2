@@ -1,0 +1,1 @@
+ /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/.dart_tool/flutter_build/1bfc0d8152dfe3c54a4e3869b484cfb3/native_assets.yaml: 

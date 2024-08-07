@@ -1,0 +1,10 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+        "dart.openDevTools": "flutter",
+        "terminal.integrated.shell.osx": "/bin/zsh",
+        "terminal.integrated.shellArgs.osx": ["-l"],
+        "terminal.integrated.env.osx": {
+            "PATH": "$PATH:/Users/ibrahimandao/flutter/bin"
+        }
+    
+}

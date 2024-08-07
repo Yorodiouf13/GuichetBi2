@@ -1,0 +1,10 @@
+framework module barcode_scan2 {
+  umbrella header "barcode_scan2-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module barcode_scan2.__Swift {
+  exclude header "barcode_scan2-Swift.h"
+}

@@ -1,0 +1,54 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s13barcode_scan222SwiftBarcodeScanPluginCMn",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginCMa",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTq",
+            "_barcode_scan2VersionNumber",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginC8register4withySo07FlutterF9Registrar_p_tFZ",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginC18hostViewController33_0CCB0D0B381D5CB622E115D6CC349988LLSo06UIViewI0CSgvpfi",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginC6result33_0CCB0D0B381D5CB622E115D6CC349988LLyypSgcSgvpfi",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginCACycfC",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginCfD",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginCACycfc",
+            "_barcode_scan2VersionString",
+            "_$s13barcode_scan222SwiftBarcodeScanPluginCN"
+          ],
+          "objc_class": [
+            "_TtC13barcode_scan222SwiftBarcodeScanPlugin",
+            "PodsDummy_barcode_scan2",
+            "BarcodeScanPlugin"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/barcode_scan2.framework/barcode_scan2"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "15",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

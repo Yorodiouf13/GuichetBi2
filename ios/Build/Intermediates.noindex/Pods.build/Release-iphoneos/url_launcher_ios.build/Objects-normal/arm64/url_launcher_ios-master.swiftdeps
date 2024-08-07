@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
+options: "bc08f860d0e6ba1d217f167d7e938abe5b20886448aca67dc3705258c766352b"
+build_start_time: [1722942501, 260029000]
+build_end_time: [1722942502, 978166000]
+inputs:
+  ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.0/ios/url_launcher_ios/Sources/url_launcher_ios/Launcher.swift"
+  : [1722526356, 596417331]
+  ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.0/ios/url_launcher_ios/Sources/url_launcher_ios/URLLaunchSession.swift"
+  : [1722526356, 596227584]
+  ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.0/ios/url_launcher_ios/Sources/url_launcher_ios/URLLauncherPlugin.swift"
+  : [1722526356, 596605703]
+  ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.0/ios/url_launcher_ios/Sources/url_launcher_ios/messages.g.swift"
+  : [1722526356, 596833700]

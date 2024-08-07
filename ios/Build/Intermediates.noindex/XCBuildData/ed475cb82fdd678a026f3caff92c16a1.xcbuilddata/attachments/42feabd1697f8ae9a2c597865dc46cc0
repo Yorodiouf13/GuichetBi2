@@ -1,0 +1,35 @@
+{
+  "" : {
+    "const-values" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.swiftconstvalues",
+    "dependencies" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.d",
+    "diagnostics" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.dia",
+    "emit-module-dependencies" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.swiftdeps"
+  },
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/BarcodeScannerViewController.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/BarcodeScannerViewController.o",
+    "llvm-bc" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/BarcodeScannerViewController.bc",
+    "object" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/BarcodeScannerViewController.o"
+  },
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/BarcodeScannerViewControllerDelegate.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/BarcodeScannerViewControllerDelegate.o",
+    "llvm-bc" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/BarcodeScannerViewControllerDelegate.bc",
+    "object" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/BarcodeScannerViewControllerDelegate.o"
+  },
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/protos/protos.pb.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/protos.pb.o",
+    "llvm-bc" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/protos.pb.bc",
+    "object" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/protos.pb.o"
+  },
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/ScannerOverlay.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/ScannerOverlay.o",
+    "llvm-bc" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/ScannerOverlay.bc",
+    "object" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/ScannerOverlay.o"
+  },
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/SwiftBarcodeScanPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/SwiftBarcodeScanPlugin.o",
+    "llvm-bc" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/SwiftBarcodeScanPlugin.bc",
+    "object" : "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/SwiftBarcodeScanPlugin.o"
+  }
+}

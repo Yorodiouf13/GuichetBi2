@@ -1,7 +1,7 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.muliatech.smartqueue"
-4    android:versionCode="2"
+3    package="com.solid.guichetbi"
+4    android:versionCode="4"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
@@ -48,12 +48,12 @@
 31
 32    <permission
 32-->[androidx.core:core:1.10.1] C:\Users\LENOVO\.gradle\caches\transforms-3\17650d0b35f42756c2fe42faf78d0d9b\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
-33        android:name="com.muliatech.smartqueue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33        android:name="com.solid.guichetbi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 33-->[androidx.core:core:1.10.1] C:\Users\LENOVO\.gradle\caches\transforms-3\17650d0b35f42756c2fe42faf78d0d9b\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
 34        android:protectionLevel="signature" />
 34-->[androidx.core:core:1.10.1] C:\Users\LENOVO\.gradle\caches\transforms-3\17650d0b35f42756c2fe42faf78d0d9b\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
 35
-36    <uses-permission android:name="com.muliatech.smartqueue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36    <uses-permission android:name="com.solid.guichetbi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 36-->[androidx.core:core:1.10.1] C:\Users\LENOVO\.gradle\caches\transforms-3\17650d0b35f42756c2fe42faf78d0d9b\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
 36-->[androidx.core:core:1.10.1] C:\Users\LENOVO\.gradle\caches\transforms-3\17650d0b35f42756c2fe42faf78d0d9b\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
 37
@@ -81,7 +81,7 @@
 49
 50        <activity
 50-->C:\Oumar Y. DIOUF\GuichetBi\GuichetBi2\android\app\src\main\AndroidManifest.xml:34:9-63:20
-51            android:name="com.muliatech.smartqueue.MainActivity"
+51            android:name="com.solid.guichetbi.MainActivity"
 51-->C:\Oumar Y. DIOUF\GuichetBi\GuichetBi2\android\app\src\main\AndroidManifest.xml:35:13-41
 52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
 52-->C:\Oumar Y. DIOUF\GuichetBi\GuichetBi2\android\app\src\main\AndroidManifest.xml:38:13-163

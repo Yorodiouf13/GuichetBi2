@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.muliatech.smartqueue"
-    android:versionCode="2"
+    package="com.solid.guichetbi"
+    android:versionCode="4"
     android:versionName="1.0.0" >
 
     <uses-sdk
@@ -30,10 +30,10 @@
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
     <permission
-        android:name="com.muliatech.smartqueue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.solid.guichetbi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.muliatech.smartqueue.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.solid.guichetbi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -48,7 +48,7 @@
             android:value="@string/default_notification_channel_id" />
 
         <activity
-            android:name="com.muliatech.smartqueue.MainActivity"
+            android:name="com.solid.guichetbi.MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:exported="true"
             android:hardwareAccelerated="true"

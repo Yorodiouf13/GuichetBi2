@@ -14,6 +14,7 @@ import 'package:appflutter/utils.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 // import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/cupertino.dart';
+import 'Noticket_page.dart';
 
 
 
@@ -289,14 +290,24 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
   Future<void> _generateTokenNumberUrl() async {
     String url = 'https://www.guichetbi.com/token/number/$encryptedToken';
     print('url: $url');
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => WebViewPage(initialUrl: url), 
-      ),
-    );
 
-    await _saveTicketUrl(url);
+    bool urlExists = await _checkUrlExists(url);
+    if (urlExists) {
+      await _saveTicketUrl(url);
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => WebViewPage(initialUrl: url),
+        ),
+      );
+    } else {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => NoTicketPage(),
+        ),
+      );
+    }
   }
 
     Future<void> _saveTicketUrl(String url) async {
@@ -315,10 +326,34 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
         builder: (context) => WebViewPage(initialUrl: lastTicketUrl),
       ),
     );
-  } else {
-    showSnackBar('Aucun ticket trouvé.');
-  }
+  } 
 }
+
+     Future<bool> _checkUrlExists(String url) async {
+    try {
+      final response = await http.head(Uri.parse(url));
+      return response.statusCode == 200;
+    } catch (e) {
+      print('Error checking URL: $e');
+      return false;
+    }
+  }
+
+  void _onSuiviTicketPressed() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? lastTicketUrl = prefs.getString('lastTicketUrl');
+
+    if (lastTicketUrl != null) {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => WebViewPage(initialUrl: lastTicketUrl),
+        ),
+      );
+    } else {
+      await _generateTokenNumberUrl();
+    }
+  }
 
   Future<void> _showNotification(int peopleAhead) async {
     String message = 'Il reste $peopleAhead personnes avant votre passage.';
@@ -518,7 +553,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: ElevatedButton(
-                        onPressed: _generateTokenNumberUrl,
+                        onPressed: _onSuiviTicketPressed,
                         style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.white,
                           backgroundColor: const Color(0xFF3987EF),

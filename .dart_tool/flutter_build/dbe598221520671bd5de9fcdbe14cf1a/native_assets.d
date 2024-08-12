@@ -1,0 +1,1 @@
+ C:\\Oumar\ Y.\ DIOUF\\GuichetBi\\GuichetBi2\\.dart_tool\\flutter_build\\dbe598221520671bd5de9fcdbe14cf1a\\native_assets.yaml: 

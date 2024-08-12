@@ -1,0 +1,59 @@
+{
+  "main_library": {
+    "exported_symbols": [
+      {
+        "data": {
+          "global": [
+            "_$s16url_launcher_ios17URLLauncherPluginCACycfc",
+            "_$s16url_launcher_ios17URLLauncherPluginCfD",
+            "_Swift50Overrides",
+            "_$s16url_launcher_ios17URLLauncherPluginCMn",
+            "_$s16url_launcher_ios17URLLauncherPluginCN",
+            "_Swift51Overrides",
+            "_url_launcher_iosVersionNumber",
+            "_url_launcher_iosVersionString",
+            "_$s16url_launcher_ios17URLLauncherPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "_$s16url_launcher_ios17URLLauncherPluginCACycfC",
+            "_$s16url_launcher_ios17URLLauncherPluginCMa",
+            "_$s16url_launcher_ios17URLLauncherPluginC14currentSession33_1E9177B4D0D2677B9D82C792ECADE955LLAA09URLLaunchG0CSgvpfi"
+          ],
+          "objc_class": [
+            "_TtC16url_launcher_ios17URLLauncherPlugin",
+            "PodsDummy_url_launcher_ios"
+          ]
+        },
+        "text": {
+          "global": [
+            "__ZN5swift34swift50override_conformsToProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEPFPKNS_18TargetWitnessTableIS1_EES4_S8_E",
+            "__Z34_swiftoverride_class_getSuperclassPKN5swift14TargetMetadataINS_9InProcessEEE",
+            "__ZN5swift39swift51override_conformsToSwiftProtocolEPKNS_14TargetMetadataINS_9InProcessEEEPKNS_24TargetProtocolDescriptorIS1_EEN7__swift9__runtime4llvm9StringRefEPFPKNS_35TargetProtocolConformanceDescriptorIS1_EES4_S8_SC_E"
+          ]
+        }
+      }
+    ],
+    "flags": [
+      {
+        "attributes": [
+          "not_app_extension_safe"
+        ]
+      }
+    ],
+    "install_names": [
+      {
+        "name": "@rpath/url_launcher_ios.framework/url_launcher_ios"
+      }
+    ],
+    "swift_abi": [
+      {
+        "abi": 7
+      }
+    ],
+    "target_info": [
+      {
+        "min_deployment": "12",
+        "target": "arm64-ios"
+      }
+    ]
+  },
+  "tapi_tbd_version": 5
+}

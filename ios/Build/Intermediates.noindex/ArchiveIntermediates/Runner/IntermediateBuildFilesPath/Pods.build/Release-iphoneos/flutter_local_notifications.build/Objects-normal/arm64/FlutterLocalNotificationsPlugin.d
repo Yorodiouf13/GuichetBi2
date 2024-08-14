@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/flutter_local_notifications/flutter_local_notifications.framework/Modules/module.modulemap \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/flutter_local_notifications/flutter_local_notifications.framework/Modules/module.modulemap \
   /Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.1.2/ios/Classes/FlutterLocalNotificationsPlugin.m \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Pods/Target\ Support\ Files/flutter_local_notifications/flutter_local_notifications-prefix.pch \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Pods/Target\ Support\ Files/flutter_local_notifications/flutter_local_notifications-prefix.pch \
   /Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.1.2/ios/Classes/FlutterLocalNotificationsPlugin.h \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Modules/module.modulemap \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Headers/Flutter.h \

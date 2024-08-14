@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:appflutter/main.dart';
 import 'package:flutter/material.dart';
 import 'package:barcode_scan2/barcode_scan2.dart';
 import 'package:flutter/services.dart';
@@ -453,13 +454,71 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
   // }
 
   Future<void> _navigateToWebView() async {
-    String url = await generateUrl(); // Utiliser generateUrl pour obtenir l'URL
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => WebViewPage(initialUrl: url), // Passer l'URL à WebViewPage
-      ),
+      showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (context) {
+        return Dialog(
+          child: Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                CircularProgressIndicator(),
+                SizedBox(width: 16),
+                Text("Chargement..."),
+              ],
+            ),
+          ),
+        );
+      },
     );
+
+    String url;
+    bool success = false;
+
+    // Utiliser un délai pour l'indicateur de chargement
+    await Future.delayed(Duration(seconds: 3));
+
+    try {
+      url = await generateUrl().timeout(Duration(seconds: 10));
+      success = true;
+      Navigator.pop(context); // Fermer l'indicateur de chargement
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => WebViewPage(initialUrl: url),
+        ),
+      );
+    } catch (e) {
+      Navigator.pop(context); // Fermer l'indicateur de chargement
+
+      if (!success) {
+        // Afficher le message d'erreur et rediriger vers la page d'accueil
+        showDialog(
+          context: context,
+          builder: (context) {
+            return AlertDialog(
+              title: Text("Erreur de connexion"),
+              content: Text("Votre connexion est instable. Veuillez réessayer."),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pop(context); // Fermer le dialogue
+                    Navigator.pushReplacement(
+                      context,
+                      MaterialPageRoute(builder: (context) => MyApp()),
+                    );
+                  },
+                  child: Text("OK"),
+                ),
+              ],
+            );
+          },
+        );
+      }
+    }
   }
 
 @override

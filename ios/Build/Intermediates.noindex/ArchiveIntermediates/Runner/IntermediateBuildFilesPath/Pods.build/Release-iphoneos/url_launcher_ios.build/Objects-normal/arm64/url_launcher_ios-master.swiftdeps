@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
-options: "e0466c21d1be25e84ff045a584fd572346e83044f26171f4a3c483f60a48968c"
-build_start_time: [1722942020, 564701000]
-build_end_time: [1722942022, 725654000]
+options: "8c42ebc8551082984ffbef2803573e9e914902bf8e689e841fcb189cfd21fbb2"
+build_start_time: [1723632841, 742949000]
+build_end_time: [1723632844, 29363000]
 inputs:
   ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/url_launcher_ios-6.3.0/ios/url_launcher_ios/Sources/url_launcher_ios/Launcher.swift"
   : [1722526356, 596417331]

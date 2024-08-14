@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/url_launcher_ios.framework/url_launcher_ios'
+binary-path:     '/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/url_launcher_ios.framework/url_launcher_ios'
 relocations:
   - { offsetInCU: 0x34, offset: 0x582B9, size: 0x8, addend: 0x0, symName: _url_launcher_iosVersionString, symObjAddr: 0x0, symBinAddr: 0x9F20, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x582EE, size: 0x8, addend: 0x0, symName: _url_launcher_iosVersionNumber, symObjAddr: 0x30, symBinAddr: 0x9F50, symSize: 0x0 }

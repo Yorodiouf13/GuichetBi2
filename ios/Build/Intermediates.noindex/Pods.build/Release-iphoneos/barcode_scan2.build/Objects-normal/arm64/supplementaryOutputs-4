@@ -1,9 +1,9 @@
-"/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/BarcodeScannerViewController.swift":
-  objc-header: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-Swift.h"
-  swiftsourceinfo: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.swiftsourceinfo"
-  swiftmodule: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.swiftmodule"
-  abi-baseline-json: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.abi.json"
-  const-values: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.swiftconstvalues"
-  swiftdoc: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.swiftdoc"
-  dependencies: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.d"
-  diagnostics: "/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.dia"
+"/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.3/ios/Classes/BarcodeScannerViewController.swift":
+  swiftmodule: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.swiftmodule"
+  const-values: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.swiftconstvalues"
+  swiftsourceinfo: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.swiftsourceinfo"
+  abi-baseline-json: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.abi.json"
+  objc-header: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-Swift.h"
+  diagnostics: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.dia"
+  dependencies: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2-master.d"
+  swiftdoc: "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Release-iphoneos/barcode_scan2.build/Objects-normal/arm64/barcode_scan2.swiftdoc"

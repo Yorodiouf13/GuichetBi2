@@ -22,8 +22,9 @@ environment:
 
 dependencies:
   url_launcher: ^6.0.20
-  barcode_scan2: ^4.2.1
   flutter_launcher_icons: ^0.13.1
+  barcode_scan2: ^4.3.3
+
 
   flutter:
     sdk: flutter

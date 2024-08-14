@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/MTBBarcodeScanner.framework/MTBBarcodeScanner'
+binary-path:     '/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/IntermediateBuildFilesPath/UninstalledProducts/iphoneos/MTBBarcodeScanner.framework/MTBBarcodeScanner'
 relocations:
   - { offsetInCU: 0x34, offset: 0x6D161, size: 0x8, addend: 0x0, symName: _MTBBarcodeScannerVersionString, symObjAddr: 0x0, symBinAddr: 0xCF68, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x6D196, size: 0x8, addend: 0x0, symName: _MTBBarcodeScannerVersionNumber, symObjAddr: 0x30, symBinAddr: 0xCF98, symSize: 0x0 }

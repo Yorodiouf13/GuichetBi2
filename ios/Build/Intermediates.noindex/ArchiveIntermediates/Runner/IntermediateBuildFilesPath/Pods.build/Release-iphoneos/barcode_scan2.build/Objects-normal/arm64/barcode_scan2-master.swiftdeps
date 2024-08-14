@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
-options: "909f03f5e7c449349c4f7aeedb3b869ec21ab209fc38c45ba74a2c9b269fc40b"
-build_start_time: [1722942035, 295910000]
-build_end_time: [1722942036, 635738000]
+options: "59e47cf2303bea0f9b700fa2c3795e6c2df90b5b610293254635999722a3c094"
+build_start_time: [1723632857, 640843000]
+build_end_time: [1723632859, 173963000]
 inputs:
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/BarcodeScannerViewController.swift": [1719592049, 164098872]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/BarcodeScannerViewControllerDelegate.swift": [1719592049, 164950985]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/ScannerOverlay.swift": [1719592049, 165561227]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/SwiftBarcodeScanPlugin.swift": [1719592049, 164694489]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.0/ios/Classes/protos/protos.pb.swift": [1719592049, 165860806]
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.3/ios/Classes/BarcodeScannerViewController.swift": [1723632069, 935695779]
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.3/ios/Classes/BarcodeScannerViewControllerDelegate.swift": [1723632069, 936382726]
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.3/ios/Classes/ScannerOverlay.swift": [1723632069, 937052466]
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.3/ios/Classes/SwiftBarcodeScanPlugin.swift": [1723632069, 936042523]
+  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/barcode_scan2-4.3.3/ios/Classes/protos/protos.pb.swift": [1723632069, 937503292]

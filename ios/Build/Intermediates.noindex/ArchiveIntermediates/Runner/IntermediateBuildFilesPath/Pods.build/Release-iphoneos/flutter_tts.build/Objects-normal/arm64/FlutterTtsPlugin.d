@@ -1,7 +1,7 @@
 dependencies: \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/flutter_tts/flutter_tts.framework/Modules/module.modulemap \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/flutter_tts/flutter_tts.framework/Modules/module.modulemap \
   /Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/FlutterTtsPlugin.m \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Pods/Target\ Support\ Files/flutter_tts/flutter_tts-prefix.pch \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Pods/Target\ Support\ Files/flutter_tts/flutter_tts-prefix.pch \
   /Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/FlutterTtsPlugin.h \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Modules/module.modulemap \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Headers/Flutter.h \
@@ -20,4 +20,4 @@ dependencies: \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64/Flutter.framework/Headers/FlutterViewController.h \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/flutter_tts/flutter_tts.framework/Headers/flutter_tts-Swift.h
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/flutter_tts/flutter_tts.framework/Headers/flutter_tts-Swift.h

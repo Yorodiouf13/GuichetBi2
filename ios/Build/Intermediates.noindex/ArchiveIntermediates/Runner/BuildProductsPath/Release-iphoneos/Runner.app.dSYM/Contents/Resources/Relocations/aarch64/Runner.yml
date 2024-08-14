@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/ibrahimandao/Desktop/Oumar Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/InstallationBuildProductsLocation/Applications/Runner.app/Runner'
+binary-path:     '/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/InstallationBuildProductsLocation/Applications/Runner.app/Runner'
 relocations:
   - { offsetInCU: 0x34, offset: 0x13F56B, size: 0x8, addend: 0x0, symName: _RunnerVersionString, symObjAddr: 0x0, symBinAddr: 0x100017AE0, symSize: 0x0 }
   - { offsetInCU: 0x69, offset: 0x13F5A0, size: 0x8, addend: 0x0, symName: _RunnerVersionNumber, symObjAddr: 0x28, symBinAddr: 0x100017B08, symSize: 0x0 }

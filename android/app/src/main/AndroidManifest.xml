@@ -9,9 +9,11 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.permission.CAMERA" android:required="false"/>
 
+
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <queries>
       <intent>
@@ -21,7 +23,8 @@
 
     <application
         android:label="Guichet Bi"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/launcher_icon"
+        android:enableOnBackInvokedCallback="true">
 
          <meta-data
         android:name="io.flutter.embedding.android.EnableHybridComposition"

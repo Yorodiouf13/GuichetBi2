@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'dart:convert';
+import 'package:appflutter/main.dart';
 import 'package:flutter/material.dart';
 import 'package:barcode_scan2/barcode_scan2.dart';
 import 'package:flutter/services.dart';
@@ -15,12 +16,15 @@ import 'package:flutter_tts/flutter_tts.dart';
 // import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/cupertino.dart';
 import 'Noticket_page.dart';
+import 'package:connectivity_plus/connectivity_plus.dart';
 
 
 
 String tokennotificationUrl = 'https://www.guichetbi.com/tokennotification/$v1';
   bool notification10Sent = false;
   bool notification05Sent = false;
+    bool _isLoading = false;
+
 
 class PageAccueilWidget extends StatefulWidget {
   const PageAccueilWidget({super.key});
@@ -34,7 +38,6 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
   // late TwilioFlutter twilioFlutter;
   late Timer _timer;
   bool notificationsEnabled = true;
-
 
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
       FlutterLocalNotificationsPlugin();
@@ -453,11 +456,60 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
   // }
 
   Future<void> _navigateToWebView() async {
-    String url = await generateUrl(); // Utiliser generateUrl pour obtenir l'URL
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (context) => WebViewPage(initialUrl: url), // Passer l'URL à WebViewPage
+  setState(() {
+    _isLoading = true;
+  });
+
+  final connectivityResult = await Connectivity().checkConnectivity();
+  print('Connectivity result: $connectivityResult');
+
+  if (connectivityResult == ConnectivityResult.mobile || connectivityResult == ConnectivityResult.wifi) {
+    print('Internet connection available');
+    
+    try {
+      String url = await generateUrl(); // Votre fonction pour générer l'URL
+      print('Generated URL: $url');
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => WebViewPage(initialUrl: url), // Votre page WebView
+        ),
+      );
+    } catch (e) {
+      print('Error generating URL: $e');
+      _showConnectionError();
+    }
+    } else {
+      print('No internet connection');
+      _showConnectionError();
+    }
+
+    setState(() {
+      _isLoading = false;
+      });
+    }
+
+
+  void _showConnectionError() {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: Text('Erreur de connexion'),
+        content: Text('Votre connexion est instable. Veuillez réessayer.'),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => MyApp(), // Votre page d'accueil
+                ),
+              );
+            },
+            child: Text('OK'),
+          ),
+        ],
       ),
     );
   }
@@ -549,6 +601,10 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                         ),
                         child: const Text('Ticket'),
                       ),
+                    ),
+                     if (_isLoading)
+                    Center(
+                      child: CircularProgressIndicator(),
                     ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),

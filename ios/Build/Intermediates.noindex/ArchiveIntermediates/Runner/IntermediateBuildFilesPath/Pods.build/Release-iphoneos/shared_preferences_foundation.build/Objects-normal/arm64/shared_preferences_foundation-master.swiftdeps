@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
-options: "b9338158c84971d530c821733a03654b6f2ec4b9532586c998cba15aa82da124"
-build_start_time: [1723632841, 754361000]
-build_end_time: [1723632844, 28434000]
-inputs:
-  ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.4.0/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/SharedPreferencesPlugin.swift"
-  : [1722526356, 718503251]
-  ? "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/shared_preferences_foundation-2.4.0/darwin/shared_preferences_foundation/Sources/shared_preferences_foundation/messages.g.swift"
-  : [1722526356, 719062492]

@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
-options: "aff38f7adaf306773a20b4e3fe594ce3080e5e2aa8463329aa6b91ced4a74d61"
-build_start_time: [1723633855, 747092000]
-build_end_time: [1723633860, 808965000]
-inputs:
-  ? "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Build/Intermediates.noindex/Runner.build/Release-iphoneos/Runner.build/DerivedSources/GeneratedAssetSymbols.swift"
-  : [1723633855, 688434354]
-  "/Users/ibrahimandao/Desktop/Oumar Diouf/GuichetBI Beta/GuichetBi2/ios/Runner/AppDelegate.swift": [1723558842, 786376390]

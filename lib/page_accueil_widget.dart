@@ -16,7 +16,8 @@ import 'package:flutter_tts/flutter_tts.dart';
 // import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/cupertino.dart';
 import 'Noticket_page.dart';
-
+import 'package:connectivity_plus/connectivity_plus.dart';
+// import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 
 String tokennotificationUrl = 'https://www.guichetbi.com/tokennotification/$v1';
@@ -35,6 +36,8 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
   // late TwilioFlutter twilioFlutter;
   late Timer _timer;
   bool notificationsEnabled = true;
+  bool _isLoading = false;
+
 
 
   final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
@@ -453,73 +456,73 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
   //   } 
   // }
 
-  Future<void> _navigateToWebView() async {
-      showDialog(
-      context: context,
-      barrierDismissible: false,
-      builder: (context) {
-        return Dialog(
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [
-                CircularProgressIndicator(),
-                SizedBox(width: 16),
-                Text("Chargement..."),
-              ],
-            ),
+  
+ Future<void> _navigateToWebView() async {
+    setState(() {
+      _isLoading = true; // Démarre l'indicateur de chargement
+    });
+
+    final connectivityResult = await Connectivity().checkConnectivity();
+    print('Connectivity result: $connectivityResult');
+    
+    if (connectivityResult.contains(ConnectivityResult.mobile) || connectivityResult.contains(ConnectivityResult.wifi)) {
+      print('Internet connection available');
+      try {
+        String url = await generateUrl(); // Votre fonction pour générer l'URL
+        print('Generated URL: $url');
+
+        setState(() {
+          _isLoading = false; // Arrête l'indicateur de chargement
+        });
+
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => WebViewPage(initialUrl: url), // Votre page WebView
           ),
         );
-      },
-    );
-
-    String url;
-    bool success = false;
-
-    // Utiliser un délai pour l'indicateur de chargement
-    await Future.delayed(Duration(seconds: 3));
-
-    try {
-      url = await generateUrl().timeout(Duration(seconds: 10));
-      success = true;
-      Navigator.pop(context); // Fermer l'indicateur de chargement
-
-      Navigator.push(
-        context,
-        MaterialPageRoute(
-          builder: (context) => WebViewPage(initialUrl: url),
-        ),
-      );
-    } catch (e) {
-      Navigator.pop(context); // Fermer l'indicateur de chargement
-
-      if (!success) {
-        // Afficher le message d'erreur et rediriger vers la page d'accueil
-        showDialog(
-          context: context,
-          builder: (context) {
-            return AlertDialog(
-              title: Text("Erreur de connexion"),
-              content: Text("Votre connexion est instable. Veuillez réessayer."),
-              actions: [
-                TextButton(
-                  onPressed: () {
-                    Navigator.pop(context); // Fermer le dialogue
-                    Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(builder: (context) => MyApp()),
-                    );
-                  },
-                  child: Text("OK"),
-                ),
-              ],
-            );
-          },
-        );
+      } catch (e) {
+        print('Error generating URL: $e');
+        _showConnectionError();
       }
+    } else {
+      print('No internet connection');
+      _showConnectionError();
     }
+
+    setState(() {
+      _isLoading = false; // Arrête l'indicateur de chargement
+    });
   }
+
+  
+  void _showConnectionError() {
+     setState(() {
+      _isLoading = false; // Arrête l'indicateur de chargement
+    });
+
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Erreur de connexion'),
+        content: const Text('Aucune connexion détécté! Veuillez activez votre connexion'),
+        actions: [
+          TextButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => MyApp(), // Votre page d'accueil
+                ),
+              );
+            },
+            child: const Text('OK'),
+          ),
+        ],
+      ),
+    );
+  }
+
 
 @override
   Widget build(BuildContext context) {
@@ -531,7 +534,8 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
           FocusScope.of(context).unfocus();
         }
       },
-      child: Scaffold(
+      child:
+      Scaffold(
         key: scaffoldKey,
         backgroundColor: const Color(0xFF343A40),
         body: SafeArea(

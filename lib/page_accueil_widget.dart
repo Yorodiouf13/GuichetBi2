@@ -610,7 +610,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                             letterSpacing: 3,
                           ),
                         ),
-                        child: const Text('Ticket'),
+                        child: const Text('Obtenir un ticket'),
                       ),
                     ),
                     Padding(

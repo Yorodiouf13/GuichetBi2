@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/barcode_scan2.build/module.modulemap \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Pods/Target\ Support\ Files/barcode_scan2/barcode_scan2-dummy.m \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Pods/Target\ Support\ Files/barcode_scan2/barcode_scan2-prefix.pch

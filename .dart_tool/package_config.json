@@ -27,7 +27,7 @@
     },
     {
       "name": "barcode_scan2",
-      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/barcode_scan2-4.3.0",
+      "rootUri": "file:///C:/Users/LENOVO/AppData/Local/Pub/Cache/hosted/pub.dev/barcode_scan2-4.3.3",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -614,7 +614,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-08-16T11:01:07.757952Z",
+  "generated": "2024-08-26T11:23:34.656844Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///C:/Users/LENOVO/dev/flutter",

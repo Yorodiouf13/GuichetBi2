@@ -1,5 +1,0 @@
-dependencies: \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/ArchiveIntermediates/Runner/BuildProductsPath/Release-iphoneos/MTBBarcodeScanner/MTBBarcodeScanner.framework/Modules/module.modulemap \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Pods/MTBBarcodeScanner/Classes/ios/Scanners/MTBBarcodeScanner.m \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Pods/Target\ Support\ Files/MTBBarcodeScanner/MTBBarcodeScanner-prefix.pch \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Pods/MTBBarcodeScanner/Classes/ios/Scanners/MTBBarcodeScanner.h

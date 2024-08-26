@@ -514,6 +514,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
     );
   }
 
+
 @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -524,7 +525,8 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
           FocusScope.of(context).unfocus();
         }
       },
-      child: Scaffold(
+      child:
+      Scaffold(
         key: scaffoldKey,
         backgroundColor: const Color(0xFF343A40),
         body: SafeArea(
@@ -575,7 +577,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                             fontFamily: 'Outfit',
                             fontSize: buttonFontSize,
                             fontWeight: FontWeight.bold,
-                            letterSpacing: 3,
+                            letterSpacing: 2,
                           ),
                         ),
                         child: const Text('Scan'),
@@ -596,10 +598,10 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                             fontFamily: 'Outfit',
                             fontSize: buttonFontSize,
                             fontWeight: FontWeight.bold,
-                            letterSpacing: 3,
+                            letterSpacing: 2,
                           ),
                         ),
-                        child: const Text('Ticket'),
+                        child: const Text('Obtenir un ticket'),
                       ),
                     ),
                      if (_isLoading)
@@ -621,7 +623,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                             fontFamily: 'Outfit',
                             fontSize: buttonFontSize,
                             fontWeight: FontWeight.bold,
-                            letterSpacing: 3,
+                            letterSpacing: 2,
                           ),
                         ),
                         child: const Text('Suivi du ticket'),

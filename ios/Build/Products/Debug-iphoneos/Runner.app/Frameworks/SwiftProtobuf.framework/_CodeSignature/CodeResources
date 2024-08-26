@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		035DFbNV+NZy/xrCOxl2GdF/Hco=
+		YpEEqOx2sk5eZmz8vPNeqUE8vzw=
 		</data>
 		<key>SwiftProtobuf.bundle/Info.plist</key>
 		<data>
-		t5s10e4GlQae2jEsxw/gbl/b8ck=
+		xVz0znskhl30r0q1Ifx/93ToxPQ=
 		</data>
 		<key>SwiftProtobuf.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -21,21 +21,13 @@
 	<dict>
 		<key>SwiftProtobuf.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t5s10e4GlQae2jEsxw/gbl/b8ck=
-			</data>
 			<key>hash2</key>
 			<data>
-			OVqth/mAyjHhC1LaAced4ikY0Kt++vN+IDM3rl5llHc=
+			Ft2fkW9/7CW2BDhiDkhUB6Oi4eCRwQSlndOEj1ALyUU=
 			</data>
 		</dict>
 		<key>SwiftProtobuf.bundle/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			F6mYXr6EQZyLKcQNM0vmTGcGMns=
-			</data>
 			<key>hash2</key>
 			<data>
 			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=

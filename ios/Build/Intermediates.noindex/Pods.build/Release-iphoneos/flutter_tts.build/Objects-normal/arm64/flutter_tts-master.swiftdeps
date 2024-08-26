@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)"
-options: "2ec551133441f601c26a3bafe81d2e1783554f235f26f8a709c4c9c502eaebf7"
-build_start_time: [1722942501, 260176000]
-build_end_time: [1722942503, 548436000]
-inputs:
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/AudioCategory.swift": [1722526356, 986574590]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/AudioCategoryOptions.swift": [1722526356, 986414218]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/AudioModes.swift": [1722526356, 986249595]
-  "/Users/ibrahimandao/.pub-cache/hosted/pub.dev/flutter_tts-3.8.5/ios/Classes/SwiftFlutterTtsPlugin.swift": [1722526356, 985905601]

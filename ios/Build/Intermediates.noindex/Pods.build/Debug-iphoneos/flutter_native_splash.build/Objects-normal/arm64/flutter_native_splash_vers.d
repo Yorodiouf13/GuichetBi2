@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/flutter_native_splash.build/module.modulemap \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/Guichet_bi_SOLID-main/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/flutter_native_splash.build/DerivedSources/flutter_native_splash_vers.c
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/flutter_native_splash.build/module.modulemap \
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/flutter_native_splash.build/DerivedSources/flutter_native_splash_vers.c

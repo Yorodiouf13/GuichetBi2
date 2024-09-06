@@ -20,4 +20,4 @@ dependencies: \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterHeadlessDartRunner.h \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterPluginAppLifeCycleDelegate.h \
   /Users/ibrahimandao/flutter/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator/Flutter.framework/Headers/FlutterViewController.h \
-  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/ios/Build/Products/Debug-iphonesimulator/barcode_scan2/barcode_scan2.framework/Headers/barcode_scan2-Swift.h
+  /Users/ibrahimandao/Desktop/Oumar\ Diouf/GuichetBI\ Beta/GuichetBi2/build/ios/Debug-iphonesimulator/barcode_scan2/barcode_scan2.framework/Headers/barcode_scan2-Swift.h

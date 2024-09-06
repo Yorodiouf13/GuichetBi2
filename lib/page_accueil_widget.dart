@@ -528,7 +528,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
       child:
       Scaffold(
         key: scaffoldKey,
-        backgroundColor: const Color(0xFF343A40),
+        backgroundColor: const Color(0xFFFFFFFF),
         body: SafeArea(
           top: true,
           child: LayoutBuilder(
@@ -555,7 +555,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                       child: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
                         child: Image.network(
-                          'https://www.guichetbi.com/logo/logo.png',
+                          'https://s3-alpha-sig.figma.com/img/2626/77f5/bc994e87fb783a94ae41e0f196fdc5cd?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VI4jKRkE3ZuXDWu0hWvC6Dv1qmiyQc3x7TBzhq2vhU0K0ocVxrI2cyJpf00ognpWRk9Bt0ql--olw7PWwof57W1zmEW8o5jloCJIQaJURNB3s4y21GSRk61DtN-99Qn0nZ9JmatEvLulZjHtPDdOGQmH9qrw2cwNzF3JBhROinp75jE-ut2K5kqg3wxbYfvDfOcAcMm7brG2gD5c3LHSImpdKexuziR4r8cRCE9-XFDrEZVEb2T03d5FdrFNLyXVqexZ0hG-c6tFyp4HCxQay9ETBJSumo7YwFEDrEBn~TFhVIasnhni~uNX8NgV-FzqwC2te9MiYV-tg6RVMaUT5Q__',
                           width: logoWidth,
                           height: logoHeight,
                           fit: BoxFit.contain,
@@ -568,7 +568,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                         onPressed: scan,
                         style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.white,
-                          backgroundColor: const Color(0xFF3987EF),
+                          backgroundColor: const Color(0xFFFFB222),
                           minimumSize: Size(buttonWidth, buttonHeight),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(37),
@@ -589,7 +589,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                         onPressed: _navigateToWebView,
                         style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.white,
-                          backgroundColor: const Color(0xFF3987EF),
+                          backgroundColor: const Color(0xFFFFB222),
                           minimumSize: Size(buttonWidth, buttonHeight),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(37),
@@ -614,7 +614,7 @@ class _PageAccueilWidgetState extends State<PageAccueilWidget> {
                         onPressed: _onSuiviTicketPressed,
                         style: ElevatedButton.styleFrom(
                           foregroundColor: Colors.white,
-                          backgroundColor: const Color(0xFF3987EF),
+                          backgroundColor: const Color(0xFFFFB222),
                           minimumSize: Size(buttonWidth, buttonHeight),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(37),

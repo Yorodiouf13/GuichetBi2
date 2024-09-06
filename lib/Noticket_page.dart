@@ -7,7 +7,7 @@ class NoTicketPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       key: scaffoldKey,
-      backgroundColor: const Color(0xFF343A40),
+      backgroundColor: const Color(0xFFFFFFFF),
       body: SafeArea(
         top: true,
         child: LayoutBuilder(
@@ -31,7 +31,7 @@ class NoTicketPage extends StatelessWidget {
                     Text(
                       "Oupsss!",
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: buttonFontSize * 2, // Taille de police plus grande pour "Oupsss!"
                         fontWeight: FontWeight.bold,
                       ),
@@ -41,7 +41,7 @@ class NoTicketPage extends StatelessWidget {
                     Text(
                       "Il semble que vous n'ayez pris aucun ticket pour le moment.",
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.black,
                         fontSize: buttonFontSize,
                         fontWeight: FontWeight.normal,
                       ),
@@ -54,7 +54,7 @@ class NoTicketPage extends StatelessWidget {
                       },
                       style: ElevatedButton.styleFrom(
                         foregroundColor: Colors.white,
-                        backgroundColor: const Color(0xFF3987EF),
+                        backgroundColor: const Color(0xFFFFB222),
                         minimumSize: Size(buttonWidth, buttonHeight),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(37),
